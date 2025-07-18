@@ -15,8 +15,6 @@ adultsInput.addEventListener("input", updatePrice);
 childrenInput.addEventListener("input", updatePrice);
 updatePrice(); // Initialisation
 
-form.addEventListener("submit", function (e) {
-  e.preventDefault();
-  // Redirection vers la fausse page de paiement
-  window.location.href = "paiement.html";
-});
+ document.getElementById("resevation").addEventListener("click", function () {
+    window.location.href = "https://titouan2912.github.io/paiment/";
+  });
